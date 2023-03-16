@@ -1,5 +1,5 @@
 # Sniffer Ethernet
-Sniffer Ethernet qui permet de capturer et décoder des trames Ethernet. Les trames capturées peuvent être ensuite visualisées à travers un site web.
+This is a project for sniffing Ethernet frames, decoding them, and accessing them through a web interface. 
 
 ## Fonctionnalités
 à suivre...
