@@ -7,12 +7,13 @@
 This is a project for sniffing Ethernet frames, decoding them, and accessing them through a web interface. 
 
 ## Fonctionnalités
-1. Clone the repository: `git clone https://github.com/uMatt/Thales-Sniffer.git`
-2. Navigate to the directory: `cd Thales-Sniffer`
-3. Install dependencies: `pip install -r requirements.txt`
 à suivre...
 
 ## Installation
+1. Clone the repository: `git clone https://github.com/uMatt/Thales-Sniffer.git`
+2. Navigate to the directory: `cd Thales-Sniffer`
+3. Install dependencies: `pip install -r requirements.txt`
+
 à suivre...
 
 ## Usage
