@@ -6,7 +6,7 @@
 # Sniffer Ethernet 🛰️
 This is a project for sniffing Ethernet frames, decoding them, and accessing them through a web interface. 
 
-## Fonctionnalités
+## Features
 à suivre...
 
 ## Installation
