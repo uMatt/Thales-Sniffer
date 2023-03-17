@@ -1,5 +1,12 @@
-- Plan de Validation
-- Rapport de test
-- Anomalies
-- Explication Code Python
-- Démonstation du Site Web
+- [] Plan de Validation
+- [] Rapport de test
+- [] Anomalies
+- [] Explication Code Python
+- [] Démonstation du Site Web
+- [] Déplacer les ft dans un autre fichier
+
+
+- WEBSITE
+- [] Mettre une liste déroulante à la place du nom des test
+ - Avec le nom des tests (test1, test2, etc...)
+- A la place des checkbox, mettre un GROS bouton supprimer pour supprimer tout le test
