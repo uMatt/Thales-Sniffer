@@ -20,7 +20,14 @@ This is a project for sniffing Ethernet frames, decoding them, and accessing the
 à suivre...
 
 ## Contributing
-à suivre...
+I would like to express my heartfelt appreciation to the following contributors who dedicated their time and expertise to help make this project a success:
+
+  - [Spirz83](https://github.com/Spirz83)
+  - [SeyyLii](https://github.com/SeyyLii)
+  - [Mohammadaw12](https://github.com/Mohammadaw12)
+  - [Spryzy](https://github.com/Spryzy)
+
+Thank you all for your hard work and dedication!
 
 ## License
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details.
