@@ -1,0 +1,28 @@
+prefix = [r'\* Test                                :',r'\* Execution begin date                :',r'\* Tested SW                           :',r'\* Tested SW version/edition           :'] # Les informations a recuperer 
+def recuperation_fichier_rep(chemin, prefix):
+    ligne_recontre = []
+    with open(chemin, 'r') as fichier:
+        for ligne in fichier:
+            for i in range(len(prefix)):
+                if re.search(prefix[i], ligne):
+                    ligne_recontre.append(ligne.rstrip('\n'))
+    ligne_recontre[0] = ligne_recontre[0].split(":")[1].strip()
+    ligne_recontre[1] = ligne_recontre[1].split(":")[1].strip()
+    ligne_recontre[2] = ligne_recontre[2].split(":")[1].strip()
+    ligne_recontre[2] = ligne_recontre[2].split('"')[1].strip()
+    ligne_recontre[3] = ligne_recontre[3].split(":")[1].strip()
+    return ligne_recontre
+
+
+
+
+sw, date_actuelle, nom, version = recuperation_fichier_rep(fichier_REP,prefix)
+
+
+if result is None:
+    cur.execute("CREATE TABLE INFO(trame INTEGER,nom TEXT,date TEXT,sw TEXT,version TEXT)")
+
+
+
+#AJOUT DES VALEURS
+cur.execute("INSERT INTO INFO(trame, nom, date, sw, version) VALUES (%s, %s, %s, %s, %s)", (max_numero, nom, date_actuelle, sw, version))
